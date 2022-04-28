@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { MyContext } from '../../App';
 import banner from '../../Media/image/job.png'
 import ReviewCard from '../ReviewCard/ReviewCard';
@@ -7,6 +7,7 @@ import ReviewCard from '../ReviewCard/ReviewCard';
 const Home = () => {
     const conextValue = useContext(MyContext);
     const latestReview = conextValue.slice(-3);
+    
     return (
         <div>
             <section className='grid md:grid-cols-[3fr,2fr] grid-cols-1 gap-10 px-10 xs:px-16 md:px-24  '>
@@ -15,7 +16,7 @@ const Home = () => {
                     <h1 className='text-3xl md:text-6xl font-bold uppercase mt-2'>When You Are Crazy </h1>
                     <p className='mt-6 font-medium text-gray-500'>Everything is easy if you are crazy . Nothing will be easy if you ara lazy . You can do it anything , just believe in your self , Why Not Why Not You Why Not NowYou should be have a vision in your life .let's starded.</p>
                     <div>
-                        <button className='border px-4  py-3 rounded-md mt-5 bg-[#1B1464] text-white hover:text-indigo-300 font-semibold uppercase'>Live Demo</button>
+                        <button  className='border px-4  py-3 rounded-md mt-5 bg-[#1B1464] text-white hover:text-indigo-300 font-semibold uppercase'><Link to={'/about'}>Live Demo</Link></button>
                     </div>
 
                 </div>
