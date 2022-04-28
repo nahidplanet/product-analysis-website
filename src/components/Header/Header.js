@@ -4,7 +4,7 @@ import CustomLink from '../CustomLink/CustomLink';
 
 const Header = () => {
     return (
-        <div className='flex justify-between px-24 h-[80px] bg-[#1B1464] items-center'>
+        <div className='flex justify-between sm:px-24 h-[80px] bg-[#1B1464] items-center'>
             <div className="log">
                 <Link className='font-bold uppercase text-3xl font-mono text-indigo-300 hover:text-white' to={'/'}> Nakon Agency</Link>
             </div>
