@@ -1,0 +1,59 @@
+[
+    {
+    "id": "1",
+    "name": "Moe Ammar",
+    "text": "The Pacific Grove Chamber of Commerce would like to thank eLab Communications and Mr. Will Elkadi for all the efforts and suggestions that assisted us in better positioning ourselves in the area of web, technology and training.",
+    "rank": "President",
+    "institute": "Pacific Grove Chamber of Commerce",
+    "img": "https://www.elabcommunications.com/thumb_cache/200x100/8c324a95b57b278637edf15caafeb681.jpg",
+    "ratting":"5"
+    },
+    {
+    "id": "2",
+    "name": "Scott Swanson",
+    "text": "Always available, extremely knowledgeable, and a tremendous 'can-do' attitude. Our company was on a tight timeline and strict budget to create a first-class mobile interpretation app, and Will was the perfect partner. His guidance and advice was invaluable in producing that app which easily exceeded my expectations... the entire company was thrilled with it! Without any hesitation... highly recommended.",
+    "rank": "Product Manager",
+    "institute": "LanguageLine Solutions",
+    "img": "https://www.elabcommunications.com/thumb_cache/200x100/445f9c0beb4bbe3640051d6aa652ec7e.jpg",
+    "ratting":"3.5"
+    },
+    {
+    "id": "3",
+    "name": "Jody Hansen",
+    "text": "Your thoughtfulness and support of MPCC is very much appreciated. You are a very dear friend to the Chamber, and I want to assure you that your confidence in MPCC will be justified.",
+    "rank": "CEO",
+    "institute": "PMonterey Peninsula Chamber of Commerce",
+    "img": "https://www.elabcommunications.com/thumb_cache/200x100/162f76c3a04bbd1b9228c717680fd69d.jpg"
+    ,
+    "ratting":"5"
+    },
+    {
+    "id": "4",
+    "name": "Amy Herzog",
+    "text": "I have worked with Will and the eLab Communications team for several years. Unflinchingly reliable, professional and proactive from a technology and security standpoint. Over the years, eLab Communications has streamlined our communications so that any of our website updates or other needs are handled seamlessly.",
+    "rank": "Director",
+    "institute": "Visit Carmel",
+    "img": "https://www.elabcommunications.com/thumb_cache/200x100/2bbeeac445570ab572548ca35f290623.jpg",
+    "ratting":"4.5"
+    },
+    {
+    "id": "5",
+    "name": "Jeff Adams",
+    "text": "We've certainly had a positive experience working with eLab Communications and Will Elkadi. We have engaged him to coordinate a host of our IT/ web needs, and Will has followed through in a timely fashion and hit the requested mark each time.",
+    "rank": "CEO",
+    "institute": "Bogart Group",
+    "img": "https://www.elabcommunications.com/thumb_cache/200x100/6725ea6d091ff01423ec76a7a3d92855.jpg",
+    "ratting":"4"
+    },
+    {
+    "id": "6",
+    "name": "Cheryl DeMars",
+    "text": "Amazing team and effective solutions that resulted in highly rated search optimization results and catchy branding... Running our tourist and visitor guide has never been so easy!",
+    "rank": "Marketing Director",
+    "institute": "Monterey.com",
+    "img": "https://www.elabcommunications.com/thumb_cache/200x100/8c324a95b57b278637edf15caafeb681.jpg",
+    "ratting":"5"
+    }
+
+
+]
