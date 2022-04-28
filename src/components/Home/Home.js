@@ -24,7 +24,7 @@ const Home = () => {
                 </div>
             </section>
             <section>
-                <div className='title text-center capitalize text-2xl font-bold mt-6'>customer reviews ({latestReview.length})</div>
+                <div className='title text-center capitalize text-2xl font-bold mt-6'>customer reviews ({conextValue.length})</div>
                 <div className="latest-reviews mt-10">
                     <div className="review grid grid-cols-1 sm:grid-cols-3 gap-10 sm:gap-6  px-10 md:px-16">
                         {

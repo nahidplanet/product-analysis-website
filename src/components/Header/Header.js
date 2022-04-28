@@ -12,7 +12,7 @@ const Header = () => {
     return (
         <div className='all bg-[rgb(27,20,100)] w-full'>
             {/* humbarger start  */}
-            <div onClick={() => menuToggler(!open)} className="humbarger sm:hidden absolute top-0 left-0">
+            <div onClick={() => menuToggler(!open)} className="humbarger sm:hidden absolute top-0 left-0 cursor-pointer">
                 {open ? <XIcon className='w-10 h-10'></XIcon> : <MenuIcon className='w-10 h-10  '></MenuIcon>}
             </div>
             {/* humbarger end  */}
@@ -29,7 +29,7 @@ const Header = () => {
 
                 {/* nav start  */}
                 <div className='mx-auto md:mx-0 text-center'>
-                    <nav className="nav flex flex-col md:flex-row md:ml-2">
+                    <nav className="nav flex flex-col md:flex-row md:ml-2 mb-3 md:mb-0">
                         <CustomLink className='ml-3 font-semibold text-indigo-300 uppercase hover:text-white' to={'/'}></CustomLink>
                         <CustomLink className='ml-3 font-semibold text-indigo-300 uppercase hover:text-white' to={'/home'}>Home</CustomLink>
                         <CustomLink className='ml-3 font-semibold text-indigo-300 uppercase hover:text-white' to={'/reviews'}>Reviews</CustomLink>

@@ -19,7 +19,7 @@ In the project directory, you can run:
 
 # Projet Live link
 
-Netlify link : [Website Live Link](https://github.com/facebook/create-react-app).
+Netlify link : [Website Live Link](https://nakon-agency.netlify.app/).
 
 # Projet GitHub link
 
