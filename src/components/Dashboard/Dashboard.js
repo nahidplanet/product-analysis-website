@@ -6,6 +6,7 @@ const Dashboard = () => {
     const [chart, setChart] = useChartData();
     return (
         <div className='grid grid-cols-1 md:grid-cols-2 gap-20 mt-28 md:px-24 px-6'>
+            <div className="div">
             <div className="chartOne  h-[300px]  border-2 rounded-xl p-4">
                 <ResponsiveContainer width="100%" height="100%">
                     <LineChart width={600} height={250} data={chart}>
@@ -14,13 +15,15 @@ const Dashboard = () => {
                         <Line type="monotone" dataKey="sell" stroke="#e67e22" fill="#e67e22" />
                         <Line type="monotone" dataKey="revenue" stroke="#27ae60" fill="#27ae60" />
                         <Tooltip />
-                        <Tooltip />
                         <XAxis dataKey="month" />
                         <YAxis />
                     </LineChart>
                 </ResponsiveContainer>
 
             </div>
+            <p className='text-center font-bold capitalize text-3xl text-indigo-400'>card 1</p>
+            </div>
+            <div>
             <div className="chartOne  h-[300px]  border-2 rounded-xl p-4">
                 <ResponsiveContainer width="100%" height="100%">
                     <AreaChart width={500} className='w-full' height={250} data={chart}>
@@ -30,12 +33,15 @@ const Dashboard = () => {
                         <Area type="monotone" dataKey="sell" stroke="#e67e22" fill="#e67e22" />
                         <Area type="monotone" dataKey="revenue" stroke="#27ae60" fill="#27ae60" />
                         <Tooltip />
-                        <Tooltip />
                         <XAxis dataKey="month" />
                         <YAxis />
                     </AreaChart>
                 </ResponsiveContainer>
             </div>
+            <p className='text-center font-bold capitalize text-3xl text-indigo-400'>card 2</p>
+
+            </div>
+            <div>
             <div className="chartOne h-[300px]  border-2 rounded-xl p-4">
                 <ResponsiveContainer width="100%" height="100%">
                     <BarChart width={500} height={250} data={chart}>
@@ -48,6 +54,10 @@ const Dashboard = () => {
                     </BarChart>
                 </ResponsiveContainer>
             </div>
+            <p className='text-center font-bold capitalize text-3xl text-indigo-400'>card 3</p>
+
+            </div>
+            <div>
             <div className="chartOne  h-[300px]  border-2 rounded-xl p-4 ">
                 <ResponsiveContainer width="100%" height="100%">
                     <PieChart width={400} height={400}>
@@ -57,6 +67,9 @@ const Dashboard = () => {
 
                     </PieChart>
                 </ResponsiveContainer>
+            </div>
+            <p className='text-center font-bold capitalize text-3xl text-indigo-400'>card 4</p>
+
             </div>
         </div>
     );

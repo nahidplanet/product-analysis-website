@@ -10,6 +10,7 @@ import Blog from './components/Blog/Blog'
 import About from './components/About/About'
 import { createContext } from 'react';
 import useReviews from './Hooks/useReviews';
+import NoteFound from './components/NotFound/NoteFound';
 
 
 export const MyContext = createContext("review api");
@@ -28,6 +29,7 @@ function App() {
         <Route path='/dashboard' element={<Dashboard></Dashboard>}></Route>
         <Route path='/blog' element={<Blog></Blog>}></Route>
         <Route path='/about' element={<About></About>}></Route>
+        <Route path='*' element={<NoteFound></NoteFound>}></Route>
       </Routes>
      </MyContext.Provider>
     </div>
