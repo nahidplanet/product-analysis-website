@@ -11,6 +11,7 @@ import About from './components/About/About'
 import { createContext } from 'react';
 import useReviews from './Hooks/useReviews';
 import NoteFound from './components/NotFound/NoteFound';
+import FullReviews from './components/FullReviews/FullReviews';
 
 
 export const MyContext = createContext("review api");
@@ -26,6 +27,7 @@ function App() {
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
         <Route path='/reviews' element={<Reviews></Reviews>}></Route>
+        <Route path='/reviews/:customarId' element={<FullReviews></FullReviews>}></Route>
         <Route path='/dashboard' element={<Dashboard></Dashboard>}></Route>
         <Route path='/blog' element={<Blog></Blog>}></Route>
         <Route path='/about' element={<About></About>}></Route>
