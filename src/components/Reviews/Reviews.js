@@ -6,7 +6,7 @@ const Reviews = () => {
     const getReviews = useContext(MyContext)
     return (
         <div className="latest-reviews mt-16 sm:mt-10">
-                    <div className="review grid grid-cols-1 sm:grid-cols-3 gap-6 px-24">
+                    <div className="review grid grid-cols-1 sm:grid-cols-3 gap-6 px-10 md:px-24 lg:px-32">
                       { getReviews.map(review=> <ReviewCard key={review.id} review={review}></ReviewCard>)}
                     </div>
                 </div>

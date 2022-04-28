@@ -21,7 +21,7 @@ const Dashboard = () => {
                 </ResponsiveContainer>
 
             </div>
-            <p className='text-center font-bold capitalize text-3xl text-indigo-400'>card 1</p>
+            <p className='text-center font-semibold capitalize text-3xl text-indigo-400'>revenue chart</p>
             </div>
             <div>
             <div className="chartOne  h-[300px]  border-2 rounded-xl p-4">
@@ -30,15 +30,15 @@ const Dashboard = () => {
 
                         <CartesianGrid stroke="#eee" strokeDasharray="3 3" />
                         <Area type="monotone" dataKey="investment" stroke="#34495e" fill="#34495e" />
-                        <Area type="monotone" dataKey="sell" stroke="#e67e22" fill="#e67e22" />
-                        <Area type="monotone" dataKey="revenue" stroke="#27ae60" fill="#27ae60" />
+                        <Area type="monotone" dataKey="sell" stroke="#FBFFFB" fill="#e67e22" />
+                        <Area type="monotone" dataKey="revenue" stroke="#FBFFFB" fill="#27ae60" />
                         <Tooltip />
                         <XAxis dataKey="month" />
                         <YAxis />
                     </AreaChart>
                 </ResponsiveContainer>
             </div>
-            <p className='text-center font-bold capitalize text-3xl text-indigo-400'>card 2</p>
+            <p className='text-center font-semibold capitalize text-3xl text-indigo-400'>investment chart</p>
 
             </div>
             <div>
@@ -54,7 +54,7 @@ const Dashboard = () => {
                     </BarChart>
                 </ResponsiveContainer>
             </div>
-            <p className='text-center font-bold capitalize text-3xl text-indigo-400'>card 3</p>
+            <p className='text-center font-semibold capitalize text-3xl text-indigo-400'>Sell chart</p>
 
             </div>
             <div>
@@ -68,7 +68,7 @@ const Dashboard = () => {
                     </PieChart>
                 </ResponsiveContainer>
             </div>
-            <p className='text-center font-bold capitalize text-3xl text-indigo-400'>card 4</p>
+            <p className='text-center font-semibold capitalize text-3xl text-indigo-400'>revenue chart</p>
 
             </div>
         </div>

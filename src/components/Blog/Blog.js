@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blog = () => {
     return (
-        <div className='p-24'>
+        <div className='py-24 px-10 md:px-24 lg:px-32'>
             <div className="question-1 px-4 py-3 mt-8  border-2 rounded-md">
                 <h2 className='font-semibold text-2xl capitalize mb-3'>What Is Context API ?</h2>
                 <h3><span className='text-[#EA6F5F]'>Answer : </span>
